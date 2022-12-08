@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #ffdca9;
+}
+.message {
+  color: red;
+  border-radius: 50px;
+  padding: 5px;
+  text-shadow: 5px 5px 10px gray;
+  box-shadow: 5px 5px 20px gray;
+}
+.cell {
+  height: 50px;
+  width: 50px;
+  border: 1px solid;
+  display: flexbox;
+  text-align: center;
+}
+.ratMaze {
+  display: flex;
+  justify-content: center;
+  width: 220px;
+  flex-wrap: wrap;
+  /* border: 1px solid; */
+}
+.rat {
+  background-image: url("https://pngimg.com/uploads/rat_mouse/rat_mouse_PNG2466.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cheese {
+  background-image: url("https://pngimg.com/uploads/cheese/cheese_PNG25306.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
